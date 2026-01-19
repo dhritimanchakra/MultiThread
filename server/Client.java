@@ -9,7 +9,7 @@ public class Client {
         int port =3000;
         InetAddress address=InetAddress.getByName("localhost");
         Socket socket=new Socket(address,port);
-        PrintWriter toSocket=new PrintWriter(socket.getOutputStream())
+        PrintWriter toSocket=new PrintWriter(socket.getOutputStream());
     }
     public static void main(String[] args) {
 
