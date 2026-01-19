@@ -17,7 +17,8 @@ public class Server {
                 clientSocket.close();
 
             }catch(Exception e){
-                
+                e.printStackTrace();    
+
             }
         }
 
